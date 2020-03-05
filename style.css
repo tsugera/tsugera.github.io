@@ -1,0 +1,79 @@
+html {
+    font-size: 17px;
+    background-attachment: fixed;
+    background-color: rgb(37, 34, 37);
+}
+
+h1 {
+    margin-bottom: 23px;
+   
+}
+
+body {
+    /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+    font-family: Ubuntu, sans-serif;
+    font-size: 18px;
+    l
+    
+    
+    
+  }
+
+#main {
+    
+    font-style: regular;
+    margin: 30px 8px;
+    padding: 18px;
+    border-radius: 18px;
+    background-color: rgb(29, 134, 141);
+    text-align: center;
+    color: rgb(32, 32, 32)
+}
+
+@media (max-width: 460px) {
+    #main {
+      margin: 0;
+    }
+  }
+@media (max-width: 460px) {
+   #img-caption {
+   font-size: 1.4rem;
+}
+  }
+#img-caption {
+    padding: 10px;
+}
+#img-div {
+    background: rgb(29, 134, 141);
+    padding: 10px;
+    margin: 0;
+    
+  }
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+
+img {
+    border-radius: 14px;
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+}
+
+li {
+    margin: 6px 0;
+}
+
+a {
+    color: rgb(173, 173, 173)
+}
+
+a:visited {
+    color: coral;
+}
